@@ -25,7 +25,10 @@ html,
 body {
   min-height: 100%;
 }
-
+html {
+  border: solid black;
+  border-width: 3px;
+}
 body {
   margin: 0;
   padding: 0;
@@ -33,9 +36,11 @@ body {
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: 0.1em;
-  background: var(--darker);
-  color: var(--light);
-  font-family: "lucida Sans", sans-serif;
+
+  background: rgb(254, 253, 253);
+  color: black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 h1,
@@ -83,7 +88,7 @@ p {
 }
 
 a {
-  color: var(--light);
+  color: black;
   text-decoration: none;
   opacity: 0.5;
 }
@@ -95,6 +100,8 @@ a:hover {
 
 header {
   background: var(--dark);
+  border: solid black;
+  border-width: 3px;
 }
 
 header a {
@@ -111,7 +118,7 @@ button {
   outline: none;
   cursor: pointer;
   margin: 0 1px;
-  background-color: var(--dark);
+  background-color: black;
   padding: 10px 15px;
   opacity: 0.7;
 }
@@ -142,7 +149,7 @@ input {
   font-size: 1rem;
   padding: 0.25rem;
   width: 600px;
-  border: 1px solid var(--dark);
+  border: 1px solid black;
   outline: none;
   border-radius: 3px;
   transition: box-shadow 0.2s;
@@ -171,6 +178,7 @@ header {
 header h1 {
   position: relative;
   z-index: 2;
+  color: black;
 }
 
 header img {
@@ -183,10 +191,12 @@ header img {
 }
 
 nav {
-  position: relative;
+  position: absolute;
+
+  left: 2px;
   font-family: "Futara";
-  font-size: 2.5rem;
-  margin: 30px 20px;
+  font-size: 1.5rem;
+  margin: 130px;
 }
 
 nav a:hover {
@@ -194,9 +204,10 @@ nav a:hover {
 }
 
 nav li {
+  color: black;
   cursor: pointer;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-  margin: 0 50px;
+  margin: 0 10px;
 }
 
 ul.skills {
@@ -226,7 +237,7 @@ footer a:hover {
 textarea {
   width: 600px;
   height: 200px;
-  border: 3px solid #cccccc;
+  border: 2px solid black;
   padding: 5px;
   margin-top: 10px;
 }

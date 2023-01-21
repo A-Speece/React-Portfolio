@@ -26,7 +26,7 @@ function Resume() {
           <li>MongoDB, Mongoose</li>
           <li>REST</li>
           <li>GraphQL</li>
-          <li>IBM RPG IV</li>
+          <li>IBM I Series RPGLE</li>
         </ul>
       </div>
     </section>
