@@ -1,8 +1,7 @@
-import React from 'react';
-import { removeHyphensAndCapitalize } from '../../utils/helpers';
+import React from "react";
+import { removeHyphensAndCapitalize } from "../../utils/helpers";
 
 function Project({ project }) {
-
   const { name, repo, link, description } = project;
 
   return (
@@ -14,7 +13,7 @@ function Project({ project }) {
       />
       <div className="project-text">
         <h3>
-          <a href={link}>{removeHyphensAndCapitalize(name)}</a>{' '}
+          <a href={link}>{removeHyphensAndCapitalize(name)}</a>{" "}
           <a href={repo}>
             <i className="fab fa-github"></i>
           </a>
