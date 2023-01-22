@@ -42,6 +42,12 @@ body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
+.myself {
+  width: 15%;
+  height: auto;
+  border-radius: 50%;
+  border: 2px solid black;
+}
 
 h1,
 h2,
@@ -224,7 +230,7 @@ footer {
 }
 
 footer a {
-  color: var(--light);
+  color: black;
   opacity: 0.5;
   margin: 10px 20px;
   transition: all 0.3s ease-in-out;
