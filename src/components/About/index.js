@@ -5,7 +5,7 @@ function About() {
   return (
     <section className="my-5">
       <div className="my-2">
-        <img src={selfImage} class="myself" alt="wooden background"></img>
+        <img src={selfImage} className="myself" alt="wooden background"></img>
         <p>
           Hello, My name is Anthony Speece, and i started my journey as a
           programer back in 2018. I started of working for an Insurance company
