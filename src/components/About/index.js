@@ -8,7 +8,7 @@ function About() {
         <img src={selfImage} className="myself" alt="wooden background"></img>
         <p>
           Hello, My name is Anthony Speece, and i started my journey as a
-          programer back in 2018. I started of working for an Insurance company
+          programer back in 2018. I started off working for an Insurance company
           where i specialized in back-end programming using languages such as
           IBM I Series RPGLE as well as SQL query's and reports. I am now
           looking forward to what the future holds as i complete my Full Stack
