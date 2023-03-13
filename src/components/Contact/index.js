@@ -84,7 +84,8 @@ function Contact() {
             rows="5"
             value={formState.message}
             onBlur={handleChange}
-            onChange={changeValue}          />
+            onChange={changeValue}
+          />
         </div>
         {errorMessage && (
           <div>
